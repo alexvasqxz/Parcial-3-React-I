@@ -14,8 +14,9 @@ namespace Parcial3React1
             Dog doggo = new Dog();
             Console.WriteLine("Doggo dice: " + doggo.talk()); // DOG.TALK
 
-            Sound.Sonido();
+            
             Cat keto = new Cat();
+            keto.Sonido(); // La clase Cat hace uso de la Clase Sound
             Console.WriteLine("Keto dice: " + keto.talk()); // CAT.TALK
 
            

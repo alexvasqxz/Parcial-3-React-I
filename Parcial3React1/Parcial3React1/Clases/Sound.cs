@@ -8,7 +8,7 @@ namespace Parcial3React1.Clases
 {
     static public class Sound
     {
-        static public void Sonido()
+        public static void Sonido()
         {
             Console.Beep();
         }

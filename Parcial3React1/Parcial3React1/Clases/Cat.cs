@@ -17,7 +17,10 @@ namespace Parcial3React1.Clases
         {
             return data.getName();
         }
-       
-        
+      
+        public void Sonido() // Clase CAT hara uso de clase Sound
+        {
+            Sound.Sonido();
+        }
     }
 }
