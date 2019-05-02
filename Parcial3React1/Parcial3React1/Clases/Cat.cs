@@ -13,7 +13,7 @@ namespace Parcial3React1.Clases
             return "meoooowwww";
         }
 
-        public string Name(AnimalData data) //ASOCIACION
+        public string Name(AnimalData data) //ASOCIACIONM
         {
             return data.getName();
         }
