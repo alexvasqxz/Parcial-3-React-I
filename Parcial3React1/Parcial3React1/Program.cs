@@ -14,8 +14,11 @@ namespace Parcial3React1
             Dog doggo = new Dog();
             Console.WriteLine("Doggo dice: " + doggo.talk()); // DOG.TALK
 
+            Sound.Sonido();
             Cat keto = new Cat();
             Console.WriteLine("Keto dice: " + keto.talk()); // CAT.TALK
+
+           
         }
     }
 }

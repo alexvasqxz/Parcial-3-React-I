@@ -17,8 +17,7 @@ namespace Parcial3React1.Clases
         {
             return data.getName();
         }
-
-
        
+        
     }
 }

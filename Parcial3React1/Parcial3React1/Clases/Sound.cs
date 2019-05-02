@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Parcial3React1.Clases
 {
-    class Sound
+    static public class Sound
     {
         static public void Sonido()
         {
-            Console.WriteLine("yas");
+            Console.Beep();
         }
+
     }
 }
